@@ -1,28 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Eye, ExternalLink } from 'lucide-react';
-const Projects = (
+const projects = [
   {
     id: 1,
     title: "Project Hostara",
-    description: "Coming soon: A desktop application focusing on user interface design and seamless functionality implementation.",
+    description: "I was involved in the development of the desktop application for the whole project, focusing on user interface design and functionality implementation.",
     image: "https://github.com/NICKOTIMO/nick-otimo/blob/main/photo.jpg",
     technologies: ["React", "Electron", "Node.js"],
-    comingSoon: true
+    liveLink: "#",
+    githubLink: "#"
   },
   {
     id: 2,
     title: "AgroXTREME Website Development",
-    description: "Coming soon: The official AgroXTREME Limited website to showcase agricultural innovations and services.",
-    image: "https://github.com/NICKOTIMO/nick-otimo/blob/main/gr%20xtreme%20(1).png",
+    description: "Designed and developed the official website for AgroXTREME Limited, showcasing our services, products, and agricultural innovations.",
+    image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["HTML/CSS", "JavaScript", "Bootstrap"],
-    comingSoon: true
+    liveLink: "#",
+    githubLink: "#"
   },
-  ) => {
-  return (
-    <section id="projects" className="snap-start">
-      <div className="pt-10">Projects</div>
-    </section>
-  );
-};
-
-export default Projects;
+  {
+    id: 3,
+    title: "Agricultural Data Dashboard",
+    description: "Created an interactive dashboard for visualizing agricultural data, helping farmers make informed decisions based on historical trends.",
+    image: "https://images.pexels.com/photos/7947401/pexels-photo-7947401.jpeg?auto=compress&cs=tinysrgb&w=800",
+    technologies: ["Python", "Dash", "Pandas"],
+    liveLink: "#",
+    githubLink: "#"
+  },
+  {
+    id: 4,
+    title: "Smart Irrigation System",
+    description: "Developed a prototype for an IoT-based irrigation system that optimizes water u
