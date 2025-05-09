@@ -55,9 +55,6 @@ const About: React.FC = () => {
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
               My goal is to leverage technology to create sustainable solutions that benefit farmers and the environment. I'm constantly exploring new technologies and methodologies that can be applied to agricultural challenges.
             </p>
-            <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              As the C.E.O of Agro XTREME Limited, I'm working to bridge the gap between traditional farming practices and cutting-edge technology, making agriculture more efficient, sustainable, and profitable.
-            </p>
           </div>
           
           <div className={`transition-all duration-1000 delay-300 ${animate ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
