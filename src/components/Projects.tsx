@@ -14,7 +14,7 @@ const projects = [
     id: 2,
     title: "AgroXTREME Website Development",
     description: "Coming soon: The official AgroXTREME Limited website to showcase agricultural innovations and services.",
-    image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?auto=compress&cs=tinysrgb&w=800",
+    image: "https://github.com/NICKOTIMO/nick-otimo/blob/main/gr%20xtreme%20(1).png",
     technologies: ["HTML/CSS", "JavaScript", "Bootstrap"],
     comingSoon: true
   },
