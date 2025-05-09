@@ -28,24 +28,24 @@ const Hero: React.FC = () => {
       >
         <div className="mb-8 inline-block rounded-full border-4 border-teal-600 dark:border-teal-400 p-1 overflow-hidden">
           <img 
-            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=150" 
+            src="https://scontent.fnbo8-1.fna.fbcdn.net/v/t39.30808-6/484517236_642993778677041_1731029337715033826_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFI3nL-7EyNbsqslAaJGwbaGEucsWu-08oYS5yxa77TyjQbOmWwfbBMiwhVj9s4WGyhGqkEVXTpccfDtJ0Dheab&_nc_ohc=svFXUHR9n_kQ7kNvwE9ZGQY&_nc_oc=AdkSwfDcB2ihxZ8aixZkJieY2ktgOYteTS8sKpg0tggM474ZEixVgck56Nr5kIgos6c&_nc_zt=23&_nc_ht=scontent.fnbo8-1.fna&_nc_gid=GeXMgKtugTT4axOr7flb0Q&oh=00_AfIrvkwLs4R_fmI_bmlWEh6VHCAZNBmczxE3bZRftBAmlw&oe=68239B71" 
             alt="Nick Otimo" 
             className="w-36 h-36 object-cover rounded-full"
           />
         </div>
         
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-teal-600 to-purple-600 dark:from-teal-400 dark:to-purple-400 bg-clip-text text-transparent">
-          Hi, I'M NICK OTIMO
+          Hi, It's your Boy NICK OTIMO
         </h1>
         
         <div className="text-xl sm:text-2xl font-medium text-gray-700 dark:text-gray-300 h-20">
           <TypewriterComponent 
             texts={[
               "Agricultural and Biosystems Engineering student",
-              "Aspiring Software Engineer",
+              "Aspiring Software Developer",
               "AgTech Pioneer",
-              "C.E.O Agro XTREME Limited",
-              "Data Analyst"
+              "Stem advocate",
+              "Aspiring Data Analyst"
             ]} 
           />
         </div>
