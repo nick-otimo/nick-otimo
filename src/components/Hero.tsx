@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
       >
         <div className="mb-8 inline-block rounded-full border-4 border-teal-600 dark:border-teal-400 p-1 overflow-hidden">
           <img 
-            src="https://scontent.fnbo8-1.fna.fbcdn.net/v/t39.30808-6/484517236_642993778677041_1731029337715033826_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeFI3nL-7EyNbsqslAaJGwbaGEucsWu-08oYS5yxa77TyjQbOmWwfbBMiwhVj9s4WGyhGqkEVXTpccfDtJ0Dheab&_nc_ohc=svFXUHR9n_kQ7kNvwE9ZGQY&_nc_oc=AdkSwfDcB2ihxZ8aixZkJieY2ktgOYteTS8sKpg0tggM474ZEixVgck56Nr5kIgos6c&_nc_zt=23&_nc_ht=scontent.fnbo8-1.fna&_nc_gid=GeXMgKtugTT4axOr7flb0Q&oh=00_AfIrvkwLs4R_fmI_bmlWEh6VHCAZNBmczxE3bZRftBAmlw&oe=68239B71" 
+            src="https://github.com/NICKOTIMO/nick-otimo/blob/main/namuyee.png" 
             alt="Nick Otimo" 
             className="w-36 h-36 object-cover rounded-full"
           />
