@@ -18,6 +18,7 @@ function App() {
     }, 1500);
   }, []);
 
+
   if (isLoading) {
     return (
       <div className="fixed inset-0 flex items-center justify-center bg-gray-100 dark:bg-gray-900">
