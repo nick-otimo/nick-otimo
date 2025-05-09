@@ -5,31 +5,17 @@ const projects = [
   {
     id: 1,
     title: "Project Hostara",
-    description: "I was involved in the development of the desktop application for the whole project, focusing on user interface design and functionality implementation.",
-    image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800",
+    description: "Coming soon: A desktop application focusing on user interface design and seamless functionality implementation.",
+    image: "https://github.com/NICKOTIMO/nick-otimo/blob/main/photo.jpg",
     technologies: ["React", "Electron", "Node.js"],
-    liveLink: "#",
-    githubLink: "#"
+    comingSoon: true
   },
   {
     id: 2,
     title: "AgroXTREME Website Development",
-    description: "Designed and developed the official website for AgroXTREME Limited, showcasing our services, products, and agricultural innovations.",
+    description: "Coming soon: The official AgroXTREME Limited website to showcase agricultural innovations and services.",
     image: "https://images.pexels.com/photos/265216/pexels-photo-265216.jpeg?auto=compress&cs=tinysrgb&w=800",
     technologies: ["HTML/CSS", "JavaScript", "Bootstrap"],
-    liveLink: "#",
-    githubLink: "#"
+    comingSoon: true
   },
-  {
-    id: 3,
-    title: "Agricultural Data Dashboard",
-    description: "Created an interactive dashboard for visualizing agricultural data, helping farmers make informed decisions based on historical trends.",
-    image: "https://images.pexels.com/photos/7947401/pexels-photo-7947401.jpeg?auto=compress&cs=tinysrgb&w=800",
-    technologies: ["Python", "Dash", "Pandas"],
-    liveLink: "#",
-    githubLink: "#"
-  },
-  {
-    id: 4,
-    title: "Smart Irrigation System",
-    description: "Developed a prototype for an IoT-based irrigation system that optimizes water u
+];
