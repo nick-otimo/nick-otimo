@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Eye, ExternalLink } from 'lucide-react';
-
-const projects = [
+const Projects = (
   {
     id: 1,
     title: "Project Hostara",
@@ -18,4 +17,12 @@ const projects = [
     technologies: ["HTML/CSS", "JavaScript", "Bootstrap"],
     comingSoon: true
   },
-];
+  ) => {
+  return (
+    <section id="projects" className="snap-start">
+      <div className="pt-10">Projects</div>
+    </section>
+  );
+};
+
+export default Projects;
