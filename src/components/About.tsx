@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 const skills = [
-  { name: "Agricultural Engineering", level: 95 },
-  { name: "Software Development", level: 80 },
-  { name: "Data Analysis", level: 85 },
-  { name: "Project Management", level: 90 },
-  { name: "AgTech Innovation", level: 88 }
+  { name: "stem Outreaches", level: 10 },
+  { name: "Software Development", level: 65 },
+  { name: "Data Analysis", level: 50 },
+  { name: "Communication and Networking", level: 70 },
+  { name: "AgTech Innovation", level: 75 }
 ];
 
 const About: React.FC = () => {
