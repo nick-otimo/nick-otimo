@@ -28,7 +28,4 @@ const projects = [
     liveLink: "#",
     githubLink: "#"
   },
-  {
-    id: 4,
-    title: "Smart Irrigation System",
-    description: "Developed a prototype for an IoT-based irrigation system that optimizes water u
+  ];
