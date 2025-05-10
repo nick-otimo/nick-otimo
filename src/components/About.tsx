@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 const skills = [
-  { name: "Communication and Networking", level: 70 },
+  { name: "Networking 😂", level: 70 },
   { name: "Software Development", level: 65 },
   { name: "Data Analysis", level: 50 },
+  { name: "Engineering Design", level: 30 },
   { name: "stem Outreaches", level: 10 },
 ];
 
