@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Project Hostara",
     description: "Coming soon: A desktop application focusing on user interface design and seamless functionality implementation.",
-    image: "https://github.com/NICKOTIMO/nick-otimo/blob/main/photo.jpg",
+    image: "https://scontent.fnbo8-1.fna.fbcdn.net/v/t39.30808-6/496526337_659673323719790_8994599267912308178_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=25McYtRQQY4Q7kNvwEc6kjR&_nc_oc=AdknDpVr2aYMLU_P6Ji2CVa-Z-9QivWOpl_J856PYc2nAmr5pfN390eW4ZS0pzfPEcg&_nc_zt=23&_nc_ht=scontent.fnbo8-1.fna&_nc_gid=tcSaiq-nvwSSIcqOmU_k-A&oh=00_AfJ-1AEjd3TPFYNzTXs6StOo3_Ysz552_J8mSnhxkCb2Ww&oe=6824DA80",
     technologies: ["React", "Electron", "Node.js"],
     comingSoon: true
   },
