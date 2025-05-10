@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Eye, ExternalLink } from 'lucide-react';
+
 const projects = [
   {
     id: 1,
@@ -28,4 +29,14 @@ const projects = [
     liveLink: "#",
     githubLink: "#"
   },
-  ];
+];
+
+const Projects = () => {
+  return (
+    <div>
+      {/* Projects component implementation will go here */}
+    </div>
+  );
+};
+
+export default Projects;

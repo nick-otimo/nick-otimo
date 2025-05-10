@@ -45,4 +45,4 @@ function App() {
   );
 }
 
-export default projects;
+export default App;
