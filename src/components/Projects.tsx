@@ -35,5 +35,5 @@ const projects = [
     comingSoon: true
   }
 ];
-
+export default Projects;
 
