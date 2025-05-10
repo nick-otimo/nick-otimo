@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         </div>
         
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-teal-600 to-purple-600 dark:from-teal-400 dark:to-purple-400 bg-clip-text text-transparent">
-          Hi, It's your Boy NICK OTIMO
+          Hi, I'M NICK OTIMO
         </h1>
         
         <div className="text-xl sm:text-2xl font-medium text-gray-700 dark:text-gray-300 h-20">
