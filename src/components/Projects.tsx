@@ -36,4 +36,4 @@ const projects = [
   }
 ];
 
-export default Projects;
+
