@@ -1,16 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Eye, ExternalLink } from 'lucide-react';
-
+import watertankImage from './images/WATERTANK2.png';
 const projects = [
   {
-  id: 1,
-  title: "Extrimity Water Tank",
-  description: "Water Tank design.",
-  image: "/images/WATERTANK2.png", //local path
-  technologies: ["Autodesk Inventor"],
-  comingSoon: true
-},
-
+    id: 1,
+    title: "Extrimity Water Tank",
+    description: "Water Tank design.",
+    image: watertankImage,
+    technologies: ["Autodesk Inventor"],
+    comingSoon: true
+  },
+  ...
+];
   {
     id: 2,
     title: "Project Hostara",
