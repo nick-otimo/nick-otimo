@@ -6,9 +6,9 @@ const projects = [
     id: 1,
     title: "Extrimity Water Tank",
     description: "Water Tank design.",
-    image: watertankImage,
+    image: "https://scontent.fnbo8-1.fna.fbcdn.net/v/t39.30808-6/496820414_662729790080810_5049069045802209242_n.jpg?stp=dst-jpg_p180x540_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3MhF9MSp0JYQ7kNvwHRRCED&_nc_oc=Adk4dGgkktyNzkgRjF5H8gbTaVDLQimgNyNq9xlRk3WKrU_7oqPOhB--wJUIBhU0wt4&_nc_zt=23&_nc_ht=scontent.fnbo8-1.fna&_nc_gid=hRmdW4pV1Ug69-68A-O12w&oh=00_AfIDr6mZe8ckS279DgXEm33F7WjO8ZmTdUO97Jk-hAYlfg&oe=682A48DA",
     technologies: ["Autodesk Inventor"],
-    comingSoon: true
+    comingSoon: false
   },
   ...
   {
