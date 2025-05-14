@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Eye, ExternalLink } from 'lucide-react';
-import watertankImage from './images/WATERTANK2.png';
+
 const projects = [
   {
     id: 1,
@@ -10,7 +10,6 @@ const projects = [
     technologies: ["Autodesk Inventor"],
     comingSoon: false
   },
-  ...
   {
     id: 2,
     title: "Project Hostara",
