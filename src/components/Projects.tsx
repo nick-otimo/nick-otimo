@@ -9,7 +9,7 @@ const projects = [
   image: "/images/WATERTANK2.png", //local path
   technologies: ["Autodesk Inventor"],
   comingSoon: true
-}
+},
 
   {
     id: 2,
