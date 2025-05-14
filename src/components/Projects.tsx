@@ -21,8 +21,8 @@ const projects = [
   },
   {
     id: 3,
-    title: "AgroXTREME Website Development",
-    description: "Coming soon: The official AgroXTREME Limited website to showcase agricultural innovations and services.",
+    title: "AgroXTREME Website ",
+    description: "Coming soon: The official Agricultural technology company website to showcase agricultural innovations and services.",
     image: "https://scontent.fnbo8-1.fna.fbcdn.net/v/t39.30808-6/496077000_659669833720139_1784315667198857297_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=VbmCnlEaDkMQ7kNvwFGGc36&_nc_oc=Adn_llhwivlsNXvF5JOGgCg32bR4AV01BaKPFSRlBsiLZKNKB3RsI4yGsTyVl8MOC4U&_nc_zt=23&_nc_ht=scontent.fnbo8-1.fna&_nc_gid=RZYeGjseSmefdTyXs8aG1g&oh=00_AfKykJXYGBE55qhPU9T5qExuc5GJbtFBAF-M5kQUDzy9Zw&oe=6824E138",
     technologies: ["HTML/CSS", "JavaScript", "Bootstrap"],
     comingSoon: true
