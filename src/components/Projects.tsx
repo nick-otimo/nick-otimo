@@ -11,7 +11,6 @@ const projects = [
     comingSoon: true
   },
   ...
-];
   {
     id: 2,
     title: "Project Hostara",
