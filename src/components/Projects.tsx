@@ -22,7 +22,7 @@ const projects = [
     id: 3,
     title: "AgroXTREME Website ",
     description: "Coming soon: The official Agricultural technology company website to showcase agricultural innovations and services.",
-    image: "images/gr xtreme (1).png",
+    image: "images/gr%20xtreme%20%281%29.png",
     technologies: ["HTML/CSS", "JavaScript", "Bootstrap"],
     comingSoon: true
   },
