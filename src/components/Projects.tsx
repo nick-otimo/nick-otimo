@@ -77,7 +77,7 @@ const projects = {
 
 const ProjectSection = ({ title, projects }) => (
   <div className="mb-16">
-    <h3 className="text-2xl font-bold mb-8 text-gray-800 dark:text-gray-200 border-b-2 border-teal-600 dark:border-teal-400 pb-2">
+    <h3 className="text-2xl font-bold mb-8 text-gray-800 dark:text-gray-200 border-b-2 border-teal-600 dark:border-teal-400 pb-2 font-mono">
       {title}
     </h3>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
@@ -91,18 +91,18 @@ const ProjectSection = ({ title, projects }) => (
             />
             {project.comingSoon && (
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                <span className="text-white text-lg font-semibold">Coming Soon</span>
+                <span className="text-white text-lg font-semibold font-mono">Coming Soon</span>
               </div>
             )}
           </div>
           <div className="p-6">
-            <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200">{project.title}</h3>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
+            <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-gray-200 font-mono">{project.title}</h3>
+            <p className="text-gray-600 dark:text-gray-300 mb-4 font-mono">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech, index) => (
                 <span 
                   key={index}
-                  className="px-3 py-1 bg-teal-100 dark:bg-teal-800 text-teal-800 dark:text-teal-100 rounded-full text-sm"
+                  className="px-3 py-1 bg-teal-100 dark:bg-teal-800 text-teal-800 dark:text-teal-100 rounded-full text-sm font-mono"
                 >
                   {tech}
                 </span>
@@ -110,15 +110,15 @@ const ProjectSection = ({ title, projects }) => (
             </div>
             {!project.comingSoon && (
               <div className="flex gap-4">
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700">
+                <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
                   <Github size={20} />
                   <span>Code</span>
                 </a>
-                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700">
+                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
                   <Eye size={20} />
                   <span>Demo</span>
                 </a>
-                <a href={project.live} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700">
+                <a href={project.live} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
                   <ExternalLink size={20} />
                   <span>Live</span>
                 </a>
@@ -135,7 +135,7 @@ const Projects = () => {
   return (
     <section id="work" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 relative">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 relative font-mono">
           <span className="bg-gradient-to-r from-teal-600 to-purple-600 dark:from-teal-400 dark:to-purple-400 bg-clip-text text-transparent">
             My Projects
           </span>
@@ -154,3 +154,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
