@@ -38,8 +38,8 @@ const projects = {
  solarEnergy: [
   {
     id: 4,
-    title: "Solar Power Calculator",
-    description: "Coming soon: Web-based tool for calculating solar panel requirements and efficiency.",
+    title: "Photovoltaic Installation",
+    description: "Successfully Learnt how to install solar panel battery, Inverter, achieving both DC and AC outputs",
     images: [
       "images/nickenergy.jpg",
       "images/nickenergy1.jpg" 
