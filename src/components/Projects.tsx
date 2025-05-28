@@ -10,7 +10,7 @@ const projects = {
       image: "images/WATERTANK2.png",
       technologies: ["Autodesk Inventor", "3D Modeling", "Engineering Analysis"],
       comingSoon: false,
-      github: "https://github.com/NICKOTIMO/water-tank",
+      github: "#",
       demo: "#",
       live: "#"
     }
@@ -45,7 +45,7 @@ const projects = {
       "images/nickenergy1.jpg" 
     ],
     technologies: ["React", "Solar Engineering", "Calculations"],
-    comingSoon: true
+    comingSoon: false
   }
 ]
 
