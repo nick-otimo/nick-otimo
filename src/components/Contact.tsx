@@ -96,13 +96,11 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setIsSubmitted(true);
       setFormData({ name: '', email: '', message: '' });
       
-      // Reset success message after 3 seconds
       setTimeout(() => {
         setIsSubmitted(false);
       }, 3000);
@@ -111,7 +109,6 @@ const Contact: React.FC = () => {
 
   return (
     <section id="contact" className="py-20 bg-white dark:bg-gray-900 relative overflow-hidden">
-      {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-teal-500/10 rounded-full filter blur-3xl"></div>
       <div className="absolute bottom-0 right-0 w-64 h-64 bg-purple-500/10 rounded-full filter blur-3xl"></div>
       
@@ -132,18 +129,18 @@ const Contact: React.FC = () => {
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
               <h3 className="text-xl font-semibold mb-6 text-gray-800 dark:text-white border-b border-gray-200 dark:border-gray-700 pb-2">Connect With Me</h3>
               
-              <div className="grid grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 gap-4">
                 {socialLinks.map((link, index) => (
                   <a
                     key={index}
                     href={link.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`flex flex-col items-center justify-center p-3 rounded-lg text-white transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg ${link.color}`}
+                    className={`flex flex-col items-center justify-center p-3 rounded-full text-white transition-all duration-300 transform hover:-translate-y-1 hover:scale-110 ${link.color}`}
                     style={{ transitionDelay: `${index * 50}ms` }}
                   >
                     {link.icon}
-                    <span className="text-xs mt-1">{link.name}</span>
+                    <span className="text-xs mt-2">{link.name}</span>
                   </a>
                 ))}
               </div>
@@ -230,8 +227,8 @@ const Contact: React.FC = () => {
                   >
                     {isSubmitting ? (
                       <>
-                        <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                        <svg className="animate-spin -ml-1 mr-2 h-4 w-4 text-white\" xmlns="http://www.w3.org/2000/svg\" fill="none\" viewBox="0 0 24 24">
+                          <circle className="opacity-25\" cx="12\" cy="12\" r="10\" stroke="currentColor\" strokeWidth="4"></circle>
                           <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                         </svg>
                         Sending...
