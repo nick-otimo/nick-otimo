@@ -35,16 +35,20 @@ const projects = {
       comingSoon: true
     }
   ],
-  solarEnergy: [
-    {
-      id: 4,
-      title: "Solar Power Calculator",
-      description: "Coming soon: Web-based tool for calculating solar panel requirements and efficiency.",
-      image: "https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg",
-      technologies: ["React", "Solar Engineering", "Calculations"],
-      comingSoon: true
-    }
-  ],
+ solarEnergy: [
+  {
+    id: 4,
+    title: "Solar Power Calculator",
+    description: "Coming soon: Web-based tool for calculating solar panel requirements and efficiency.",
+    images: [
+      "images/nickenergy.jpg",
+      "images/nickenergy1.jpg" 
+    ],
+    technologies: ["React", "Solar Engineering", "Calculations"],
+    comingSoon: true
+  }
+]
+
   arcGIS: [
     {
       id: 5,
