@@ -61,14 +61,6 @@ const projects = {
   ],
   other: [
     {
-      id: 6,
-      title: "Project Hostara",
-      description: "Desktop application focusing on user interface design and seamless functionality implementation.",
-      image: "https://scontent.fnbo8-1.fna.fbcdn.net/v/t39.30808-6/496526337_659673323719790_8994599267912308178_n.jpg",
-      technologies: ["React", "Electron", "Node.js"],
-      comingSoon: true
-    },
-    {
       id: 7,
       title: "AgroXTREME Website",
       description: "The official Agricultural technology company website to showcase agricultural innovations and services.",
