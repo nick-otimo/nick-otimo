@@ -10,7 +10,7 @@ const projects = {
       image: "images/WATERTANK2.png",
       technologies: ["Autodesk Inventor", "3D Modeling", "Engineering Analysis"],
       comingSoon: false,
-      github: "#",
+      github: "https://github.com",
       demo: "#",
       live: "#"
     }
