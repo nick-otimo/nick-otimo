@@ -45,7 +45,7 @@ const projects = {
       "images/nickenergy1.jpg" 
     ],
     technologies: ["React", "Solar Engineering", "Calculations"],
-    comingSoon: false
+    
   }
 ]
 
