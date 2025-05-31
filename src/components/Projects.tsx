@@ -1,5 +1,20 @@
+import WATERTANK2 from './images/WATERTANK2.png';
+import NICK1 from './images/nickenergy.jpg';
+import NICK2 from './images/nickenergy1.jpg';
+import GRXTREME from './images/gr xtreme (1).png';
+
+image: WATERTANK2,
+images: [NICK1, NICK2],
+image: GRXTREME,
+
+
 import React from 'react';
 import { Github, Eye, ExternalLink } from 'lucide-react';
+
+import WATERTANK2 from './images/WATERTANK2.png';
+import NICK1 from './images/nickenergy.jpg';
+import NICK2 from './images/nickenergy1.jpg';
+import GRXTREME from './images/gr xtreme (1).png';
 
 const projects = {
   engineering: [
@@ -7,7 +22,7 @@ const projects = {
       id: 1,
       title: "Extrimity Water Tank",
       description: "Innovative water tank design optimized for efficient water storage and distribution.",
-      image: "./images/WATERTANK2.png",
+      image: WATERTANK2,
       technologies: ["Autodesk Inventor", "3D Modeling", "Engineering Analysis"],
       comingSoon: false,
       github: "https://github.com",
@@ -39,16 +54,10 @@ const projects = {
     {
       id: 4,
       title: "Photovoltaic Installation",
-      description: "Successfully learnt how to install solar panel battery, inverter, achieving both DC and AC outputs.",
-      images: [
-        "./images/nickenergy.jpg",
-        "./images/nickenergy1.jpg"
-      ],
+      description: "Successfully learnt how to install solar panel battery, Inverter, achieving both DC and AC outputs",
+      images: [NICK1, NICK2],
       technologies: ["React", "Solar Engineering", "Calculations"],
-      comingSoon: false,
-      github: "https://github.com",
-      demo: "#",
-      live: "#"
+      comingSoon: false
     }
   ],
   arcGIS: [
@@ -66,7 +75,7 @@ const projects = {
       id: 7,
       title: "AgroXTREME Website",
       description: "The official Agricultural technology company website to showcase agricultural innovations and services.",
-      image: "./images/gr xtreme (1).png",
+      image: GRXTREME,
       technologies: ["HTML/CSS", "JavaScript", "Bootstrap"],
       comingSoon: true
     }
@@ -81,30 +90,16 @@ const ProjectSection = ({ title, projects }) => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
       {projects.map((project) => (
         <div key={project.id} className="bg-white dark:bg-gray-700 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
-          <div className="relative overflow-hidden">
-            {project.images ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                {project.images.map((img, index) => (
-                  <img
-                    key={index}
-                    src={img}
-                    alt={`${project.title} ${index + 1}`}
-                    className="w-full h-48 object-cover"
-                  />
-                ))}
-              </div>
-            ) : (
-              <div className="aspect-square overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-                />
-                {project.comingSoon && (
-                  <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                    <span className="text-white text-lg font-semibold font-mono">Coming Soon</span>
-                  </div>
-                )}
+          <div className="relative aspect-square overflow-hidden">
+            {/* Use the first image if it's an array */}
+            <img 
+              src={Array.isArray(project.images) ? project.images[0] : project.image} 
+              alt={project.title}
+              className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+            />
+            {project.comingSoon && (
+              <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                <span className="text-white text-lg font-semibold font-mono">Coming Soon</span>
               </div>
             )}
           </div>
@@ -113,7 +108,7 @@ const ProjectSection = ({ title, projects }) => (
             <p className="text-gray-600 dark:text-gray-300 mb-4 font-mono">{project.description}</p>
             <div className="flex flex-wrap gap-2 mb-4">
               {project.technologies.map((tech, index) => (
-                <span
+                <span 
                   key={index}
                   className="px-3 py-1 bg-teal-100 dark:bg-teal-800 text-teal-800 dark:text-teal-100 rounded-full text-sm font-mono"
                 >
@@ -123,18 +118,24 @@ const ProjectSection = ({ title, projects }) => (
             </div>
             {!project.comingSoon && (
               <div className="flex gap-4">
-                <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
-                  <Github size={20} />
-                  <span>Code</span>
-                </a>
-                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
-                  <Eye size={20} />
-                  <span>Demo</span>
-                </a>
-                <a href={project.live} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
-                  <ExternalLink size={20} />
-                  <span>Live</span>
-                </a>
+                {project.github && (
+                  <a href={project.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
+                    <Github size={20} />
+                    <span>Code</span>
+                  </a>
+                )}
+                {project.demo && (
+                  <a href={project.demo} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
+                    <Eye size={20} />
+                    <span>Demo</span>
+                  </a>
+                )}
+                {project.live && (
+                  <a href={project.live} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-teal-600 hover:text-teal-700 font-mono">
+                    <ExternalLink size={20} />
+                    <span>Live</span>
+                  </a>
+                )}
               </div>
             )}
           </div>
@@ -167,3 +168,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
